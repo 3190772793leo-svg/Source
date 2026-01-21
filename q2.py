@@ -49,3 +49,5 @@ iv_put = implied_volatility(S, K, T, r, put_price, 'put')
 # 输出结果（保留四位小数）
 print(f"看涨期权隐含波动率: {iv_call:.4f} ({iv_call*100:.2f}%)")
 print(f"看跌期权隐含波动率: {iv_put:.4f} ({iv_put*100:.2f}%)")
+
+print("This is the anwser to question 2.")
